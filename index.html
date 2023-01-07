@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+<body>
+  <main>
+    <section class="heading">
+      <nav class="navigation navigation__header">
+        <div>
+          <img class="logo" src="assets/logo.svg" alt="">
+        </div>
+        <button class="btn btn--black">Free Consultation</button>
+      </nav>
+      <div class="heading__text">
+        <h1 class="text__heading--large">Design solutions made easy</h1>
+        <p class="text__paragraph text__paragraph--grey">  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+      </div>
+      <div class="heading__grid">
+        <div class="grid__flex grid__picture1--large grid__item1 bg-1">
+          <div class="grid__pattern1">
+            <img src="assets/pattern-graphic-design.svg" alt="">
+          </div>
+          <p class="grid-text">Graphic Design</p>
+        </div>
+        <div class="grid__flex--mini grid__item2 ">
+          <div class="grid__flex grid__picture1 bg-2">
+            <div class="grid__pattern1">
+              <img src="assets/pattern-ui-ux.svg" alt="">
+            </div>
+            <p class="grid-text">UI/UX</p>
+          </div>
+          <div class="grid__flex grid__picture1  bg-3">
+            <div class="grid__pattern1">
+              <img src="assets/pattern-apps.svg" alt="">
+            </div>
+            <p class="grid-text">Apps</p>
+          </div>
+        </div>
+        <div class="grid__flex grid__picture2 grid__item3  bg-4">
+          <div class="grid__pattern1">
+            <img src="assets/pattern-illustrations.svg" alt="">
+          </div>
+          <p class="grid-text">Illustrations</p>
+        </div>
+        <div class="grid__flex grid__picture2 grid__item4 bg-5">
+          <div class="grid__pattern1">
+            <img src="assets/pattern-photography.svg" alt="">
+          </div>
+          <p class="grid-text">Photography</p>
+        </div>
+        <div class="grid__flex grid__picture2 grid__item5 bg-6">
+          <div class="grid__pattern1">
+            <img src="assets/pattern-motion-graphics.svg" alt="">
+          </div>
+          <p class="grid-text">Motion Graphics</p>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="portrait">
+        <img src="assets/image-amy.webp" alt="This is a picture of Amy, the web designer. She is smiling and wearing a blue shirt and behind his is a green background with patterns on it">
+      </div>
+      <div class="about-text">
+        <h2 class="text__heading--medium"> I’m Amy, and I’d love to work on your next project</h2>
+        <p class="text__paragraph text__paragraph--grey">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+          to complete mobile apps. I’m also handy with a camera!</p>
+        <button class="btn btn--pink">Free Consultation</button>
+      </div>
+    </section>
+    <section class="work">
+      <h2 class="text__heading--medium">My Work</h2>
+      <div class="carousel">
+        <div class="carousel__flex">
+          <div class="carousel__item" data-index="0" ><img src="assets/image-slide-1.jpg" alt="light blue design with white streaks making it look like a snowflake"></div>
+          <div class="carousel__item" data-index="1"><img src="assets/image-slide-2.jpg" alt="dark blue design with various dark and light blue shapes in the background"></div>
+          <div class="carousel__item carousel__center" data-index="2"><img src="assets/image-slide-3.jpg" alt="hand holding a newspaper in the background of yellow, pink and black"></div>
+          <div class="carousel__item" data-index="3"><img src="assets/image-slide-4.jpg" alt="black folder with a series of black discs in the background"></div>
+          <div class="carousel__item" data-index="4"><img src="assets/image-slide-5.jpg" alt="hand holding a cell phone looking down at a table with a plant on the left and a iced beverage on the right"></div>
+        </div>
+      </div>
+      <div class="carousel-arrows">
+        <div class="arrow" role="button">
+          <img src="assets/icon-arrow-left.svg" alt="">
+        </div>
+        <div class="arrow" role="button">
+          <img src="assets/icon-arrow-right.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="booking">
+      <div class="booking-text">
+        <div class="booking-text__typography">
+          <h2 class="text__heading--medium">Book a call with me</h2>
+          <p class="text__paragraph text__paragraph--white">  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+          free consultation. Then we can move forward from there.</p>
+        </div>
+        <button class="btn btn--pink">Free Consultation</button>
+      </div>
+    </div>
+    <footer class="navigation navigation__footer">
+      <div>
+        <img class="logo" src="assets/logo.svg" alt="">
+      </div>
+      <button class="btn btn--black">Free Consultation</button>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
